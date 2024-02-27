@@ -1,0 +1,10 @@
+[package]
+name = 'ArcProtocol'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[addresses]
+apinaddr = "0xaf84f2a0350b6c27c91b4e2bf7b6427098afe58e14a7dc7b6d2b4c444a3be8fb"
